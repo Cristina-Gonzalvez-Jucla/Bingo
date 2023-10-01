@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("bk.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+#main-container {
+    width: 544px;
+    height: 259px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+}
+#main-container div {
+    width: 60px;
+    height: 85px;
+    outline: 2px dashed black;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 0 0 6px #FF0000, 0 0 5px #0000FF;
+
+}
+
+
